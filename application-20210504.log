@@ -1,2 +1,4 @@
-14:42:19.199 [main] INFO  Main - Hello world
-14:42:19.201 [main] ERROR Main - Error
+14:48:40.640 [main] INFO  Main - Hello world
+14:48:40.642 [main] ERROR Main - Error
+14:48:40.643 [main] WARN  Main - Going to divide number by zero
+14:48:40.643 [main] ERROR Main - Divide by zero

@@ -8,5 +8,14 @@ public class Main {
     public static void main(String[] args) {
         LOGGER.info("Hello world");
         LOGGER.error("Error");
+
+        try{
+            LOGGER.warn("Going to divide number by zero");
+            int i = 42/0;
+        }
+        catch (ArithmeticException e){
+            e.printStackTrace();
+            LOGGER.error("Divide by zero");
+        }
     }
 }
